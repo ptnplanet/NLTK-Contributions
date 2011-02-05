@@ -15,8 +15,7 @@ from nltk.corpus.reader.util import read_regexp_block
 from nltk.corpus.reader.api  import CorpusReader
 
 class NegraCorpusReader(ConllCorpusReader):
-    """
-    A corpus reader for NEGRA corpus files. A NEGRA corpus file consists out
+    """A corpus reader for NEGRA corpus files. A NEGRA corpus file consists out
     of annotated sentences separated by #BOS (beginning of sentence) and #EOS
     (end of sentence) markers on their own line. Each sentence consists of
     words and columns containing the lemma, tag, chunk and/or morphological tag.
